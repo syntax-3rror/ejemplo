@@ -1,0 +1,16 @@
+a= {1,2,3}
+
+bloque de codigo 
+a.each {|x| puts x}
+
+b= a.map {|x| x+1}.reverse.sort{|a,b|, a<=>b}
+ 1<=>2
+ -1
+ 1<=>1
+ 0
+ 2<=>1
+ +1
+
+
+ def comaparar (x,y)
+ 

@@ -1,0 +1,27 @@
+puts " la jugada es [[Juan,P],[Pedro,T]] "
+
+def juego (jugada)
+if jugada[0][1] == jugada[1][1] 
+ganador = 1 
+	 
+end
+if jugada[0][1] == 'R'
+		if jugada[1][1] == 'T' 
+			ganador = 0
+		
+   		elseif jugada[1][1] == 'P' 
+		       ganador = 1 
+else
+end
+elseif  jugada[0][1] == 'P'  
+		if jugada[1][1] == 'T' or jugada[1][1]='R'
+			ganador = 0
+		else 
+		end
+
+end
+return jugada[ganador]
+end
+jugada = [["Juan","P"],["Pedro","T"]]
+
+puts juego(jugada)

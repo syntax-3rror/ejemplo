@@ -1,0 +1,5 @@
+Ejercicio 2 
+Hacer ¡Que funcione El Ejemplo en el clase: 
+5.yens.in (: dólares) 
+10.euros.in (: yens) 
+Se debe aguantar bolivianos (1), (6,96 dolares), euros (9.15), yenes ( 0.075)

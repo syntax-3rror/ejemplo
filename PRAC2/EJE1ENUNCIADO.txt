@@ -1,0 +1,12 @@
+ Ejercicio 1 
+Se debe realizar un función llamada cambio que devuelva en un array el cambio mas optimo para un un monto dado y un set de monedas. 
+
+Ejemplo si se quiere tener cambio para 39 ctvs y se tiene las monedas [25,10,5,1] El resultado debe ser: [25, 10, 1, 1, 1, 1] 
+
+La funcion debe recibir el monto y un array con las monedas posibles 
+
+def cambio(monto, monedas) 
+
+end 
+
+Siempre el monto seran centavos y las monedas tambien 

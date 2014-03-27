@@ -1,0 +1,30 @@
+<b>Movies</b>
+<br>
+number of movies: <%= @movies.count %>
+<br>
+<%= notice %>
+<br>
+<table>
+	<tr>
+		<th>Movie</th>
+		<th></th>	
+		<th></th>	
+	</tr>
+<% @movies.each do |movie| %>
+<tr>
+<td>	
+	
+	<%= movie.name %>
+</td>
+<td>
+	<a href="/movies/<%= movie.id %>"> Edit</a>
+</td>
+<td>
+	<a href="/movies/delete/<%=  movie.id %>"> Delete </a>
+</td>
+</tr>
+<% end %>
+</table>
+
+<br>
+<a href="/movies/new">Nuevo</a>

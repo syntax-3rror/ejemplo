@@ -1,0 +1,14 @@
+el key tiene q almacenar un array !!! 
+
+ARRARY = TRAI.EACH_LINE.MAP {|LINE| LINE.SLIP.MAP {1X1X.TO_I}}
+triangulo _= <<EOS
+EL DE ABAJO Y EL DE UNO MAS
+
+
+DEVOLVER NMBRE Y LA JUGADA
+1
+23
+4556
+EOS
+
+// exprsion regular gsub(/\w/,'')
